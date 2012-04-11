@@ -1,0 +1,65 @@
+% !TEX spellcheck = en
+%% document class file for the preparation of a paper
+%% for the International Conference ICCAS 2007
+%% global option 'fleqn' ensures equations flush left.
+%% set '10pt' and 'twocolumn' options.
+
+\documentclass[fleqn,10pt,twocolumn]{ICCAS2012}
+
+%%%%%%% set heading and page number heare %%%%%%%%%%
+%\setcounter{page}{101}
+\begin{document}
+
+\title{Analyses of various method of creating a throwing profile for a bipedal humanoid robot}
+
+\author{Daniel M. Lofaro${}^{1}$, Chunyang Sun${}^{3}$, and Paul Oh${}^{2}$ }
+
+\affils{${}^{1}$Department of Electrical and Computer Engineering,\\
+		${}^{2}$Department of Mechanical Engineering,\\
+Drexel University, Philadelphia, PA, USA\\
+${}^{3}$Department of Mechanical Engineering,\\
+Nanyang Technological University, Singapore\\
+EMAIL: dml46@drexel.edu, sunc0012@e.ntu.edu.sg, paul@coe.drexel.edu\\ 
+        }
+        
+\thanks{*This project was supported by the Drexel Autonomous Systems Lab (DASL) and by a National Science Foundation - Partnerships for International Research and Education grant (\#0730206).}% <-this % stops a space
+%\thanks{ \noindent
+%   This paper is supported by my funding agencies.
+%  }
+\abstract{
+\input{abstract.tex}
+}
+
+\keywords{
+    High Degree of Freedom Humanoid Robot Throwing
+}
+
+\maketitle
+
+%-----------------------------------------------------------------------
+\input{intorduction.tex}
+
+\input{methodology.tex} 
+\cite{4813885}
+
+
+%%%%%%%%%%%%%%%%% BIBLIOGRAPHY IN THE LaTeX file !!!!! %%%%%%%%%%%%%%%%%%%%%%
+%%---------------------------------------------------------------------------%%
+%
+%\begin{thebibliography}{99}
+
+
+%\bibliographystyle{plain}
+%\bibliography{mit}
+
+\bibliographystyle{IEEEtran}
+%\bibliographystyle{plain}
+\bibliography{mit}{}
+
+
+%\end{thebibliography}
+
+%
+%%--------------------------------------------------------------------%%
+
+\end{document}
